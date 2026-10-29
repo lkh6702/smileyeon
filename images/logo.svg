@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-48 -48 96 96" width="480" height="480">
+  <defs>
+    <!-- 치아 하나 (위쪽 방향): 바깥 치관 + 두 뿌리, 뿌리 사이 둥근 틈, 중앙 부채꼴 -->
+    <g id="tooth">
+      <path fill-rule="evenodd" d="
+        M 0,-29
+        C 2,-36 4,-41 8,-42
+        C 15,-43 22,-39 23,-32
+        C 24,-26 22,-20 18,-15
+        L 12,-9
+        L -12,-9
+        L -18,-15
+        C -22,-20 -24,-26 -23,-32
+        C -22,-39 -15,-43 -8,-42
+        C -4,-41 -2,-36 0,-29 Z
+        M -13,-12
+        C -9,-17 -5,-23 0,-23
+        C 5,-23 9,-17 13,-12 Z"/>
+      <path d="M 0,0 L -12.56,-7.25 A 14.5 14.5 0 0 1 12.56,-7.25 Z"/>
+    </g>
+
+    <!-- 흰 링과 치아 사이 구분선을 투명하게 뚫는 마스크 -->
+    <mask id="cut" maskUnits="userSpaceOnUse" x="-48" y="-48" width="96" height="96">
+      <rect x="-48" y="-48" width="96" height="96" fill="#fff"/>
+      <circle r="15.5" fill="none" stroke="#000" stroke-width="3.5"/>
+      <g stroke="#000" stroke-width="2" stroke-linecap="round">
+        <line x1="0" y1="0" x2="0" y2="16"/>
+        <line x1="0" y1="0" x2="0" y2="16" transform="rotate(120)"/>
+        <line x1="0" y1="0" x2="0" y2="16" transform="rotate(240)"/>
+      </g>
+    </mask>
+  </defs>
+
+  <g mask="url(#cut)">
+    <use href="#tooth" fill="#F15F1C"/>
+    <use href="#tooth" fill="#186CAC" transform="rotate(120)"/>
+    <use href="#tooth" fill="#37A243" transform="rotate(240)"/>
+  </g>
+</svg>

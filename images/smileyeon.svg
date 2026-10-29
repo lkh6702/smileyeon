@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 856 482" role="img" aria-label="SMILE YEON 글자 화분 장식">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7efe8"/><stop offset="1" stop-color="#efe3d8"/></linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a4d52"/><stop offset="1" stop-color="#2f3135"/></linearGradient>
+    <linearGradient id="pot" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d8d6d3"/><stop offset="1" stop-color="#b9b6b2"/></linearGradient>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000" flood-opacity=".22"/></filter>
+    <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="3" cy="4" r="1.1" fill="#000" opacity=".12"/><circle cx="10" cy="10" r=".9" fill="#000" opacity=".1"/></pattern>
+  </defs>
+
+  <!-- 배경: 책장 -->
+  <rect width="856" height="482" fill="url(#wall)"/>
+  <g opacity=".55">
+    <rect x="20" y="0" width="34" height="250" fill="#7fa3bd"/><rect x="58" y="0" width="26" height="250" fill="#e8c27a"/>
+    <rect x="88" y="0" width="30" height="250" fill="#c98476"/><rect x="700" y="0" width="28" height="250" fill="#8fb79a"/>
+    <rect x="732" y="0" width="34" height="250" fill="#7fa3bd"/><rect x="770" y="0" width="24" height="250" fill="#e8a998"/>
+    <rect x="798" y="0" width="38" height="250" fill="#b9a2c8"/>
+  </g>
+  <rect x="0" y="372" width="856" height="110" fill="#fbf8f5"/>
+  <rect x="0" y="368" width="856" height="8" fill="#e6ddd4"/>
+
+  <!-- 화분과 다육이 -->
+  <g>
+    <path d="M160 150H260L252 230H168Z" fill="url(#pot)"/>
+    <ellipse cx="210" cy="118" rx="26" ry="28" fill="#f2c94c"/>
+    <rect x="190" y="130" width="40" height="70" rx="20" fill="#5f8f55"/>
+
+    <path d="M330 160H440L432 230H338Z" fill="url(#pot)"/>
+    <g fill="#9cc48a"><ellipse cx="360" cy="140" rx="16" ry="24" transform="rotate(-25 360 140)"/><ellipse cx="410" cy="138" rx="16" ry="24" transform="rotate(25 410 138)"/><ellipse cx="385" cy="128" rx="15" ry="26"/><ellipse cx="372" cy="152" rx="14" ry="18" transform="rotate(-50 372 152)"/><ellipse cx="400" cy="152" rx="14" ry="18" transform="rotate(50 400 152)"/></g>
+    <g fill="#e89a8c" opacity=".8"><circle cx="352" cy="122" r="5"/><circle cx="418" cy="120" r="5"/><circle cx="385" cy="104" r="5"/></g>
+
+    <path d="M500 160H600L592 230H508Z" fill="url(#pot)"/>
+    <circle cx="550" cy="82" r="26" fill="#e0434b"/>
+    <rect x="530" y="96" width="40" height="80" rx="20" fill="#4f7d48"/>
+
+    <path d="M660 170H760L752 230H668Z" fill="url(#pot)"/>
+    <rect x="696" y="100" width="28" height="80" rx="14" fill="#8db88a"/>
+    <rect x="676" y="124" width="20" height="40" rx="10" fill="#8db88a"/>
+    <rect x="724" y="114" width="20" height="44" rx="10" fill="#8db88a"/>
+  </g>
+
+  <!-- 돌 받침 -->
+  <rect x="40" y="318" width="776" height="66" rx="22" fill="url(#stone)"/>
+  <rect x="40" y="318" width="776" height="66" rx="22" fill="url(#dots)"/>
+
+  <!-- SMILE YEON 콘크리트 글자 -->
+  <g font-family="'Arial Black','Arial',sans-serif" font-weight="900" font-size="104" text-anchor="middle" filter="url(#sh)" stroke-width="2.5" stroke-linejoin="round">
+    <text x="90" y="350" fill="#f1c7cf" stroke="#dfb1ba">S</text>
+    <text x="180" y="350" fill="#f1c7cf" stroke="#dfb1ba">M</text>
+    <text x="251" y="350" fill="#f3f1ee" stroke="#d9d6d2">I</text>
+    <text x="306" y="350" fill="#a9c3ec" stroke="#93add7">L</text>
+    <text x="380" y="350" fill="#f3f1ee" stroke="#d9d6d2">E</text>
+    <text x="490" y="350" fill="#f3e6a4" stroke="#ddcf8c">Y</text>
+    <text x="566" y="350" fill="#f3f1ee" stroke="#d9d6d2">E</text>
+    <text x="650" y="350" fill="#f3f1ee" stroke="#d9d6d2">O</text>
+    <text x="743" y="350" fill="#f3f1ee" stroke="#d9d6d2">N</text>
+  </g>
+  <!-- 콘크리트 질감 -->
+  <rect x="40" y="200" width="776" height="150" fill="url(#dots)" opacity=".6"/>
+</svg>
